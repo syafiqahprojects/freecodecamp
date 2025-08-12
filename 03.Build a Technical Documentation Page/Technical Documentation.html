@@ -1,0 +1,513 @@
+<!DOCTYPE html> <!--html declaration-->
+<html lang="en"><!--html tag-->
+    <head>
+        <!--link with external resources stylesheet-->
+        <link rel="stylesheet"  href="styles.css">
+
+
+        <!--specifies the character encoding for the HTML document-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Title of Documents-->
+    
+        <title> Technical Documentation</title>
+    </head>
+  
+    <!-- *   *   *   *   *   *   *   *   *   *   B    O       D       Y   *   *   *   *   *   *   *   *   *   *   *  * -->
+    <body>
+
+        <!--navigation bar on the leftside of blog(left menu)-->
+    <div id="nav_container">
+        <!--add the python logo on left side of the website svg-->
+
+            <img src="python-3.svg" alt="pythonlogoleft" id="pythonlogo" href="file:///E:/programming/HTML_CSS/freecodecamp/HTML%20%26%20CSS/03.Build%20a%20Technical%20Documentation%20Page/python-3.svg">
+
+            
+            <!--sidemenu content-->
+                <nav id="navbar"> 
+                    <header id="navbarheader"> PYTHON <br>DOCUMENTATION</header>
+                    <div id="nav_link">
+                        <div><a href="#WHAT_IS_PYTHON" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link">What is python </a></div>
+                        <div><a href="#WHY_TO_LEARN_PYTHON" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link">Why to learn python </a></div>
+                        <div><a href="#HISTORY_OF_PYTHON" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link"> History of python </a></div>
+                        <div><a href="#HEllO_WORLD" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link">Hello World </a></div>
+                        <div><a href="#VARIABLES" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link"> Variables</a></div>
+                        <div><a href="#DATA_TYPES" style="color:rgb(0, 0, 0); text-decoration:none;" class="nav-link">Data Types</a></div>
+                        
+                    </div>
+                </nav>
+    </div>
+       
+
+      <!-- *    *   *   *   *   *   *   *   * M A I N   S E C T I O N *   *   *   *   *   *   *   *   *   *   *   *     *-->
+        
+        <main id="main-doc" >
+            
+            <section class="main-section" id="WHAT_IS_PYTHON">
+                <header><h1>WHAT IS PYTHON</h1></header>
+                <p>
+                Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected programming language.  
+                It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).
+                Python supports multiple programming paradigms, including Procedural, Object Oriented and Functional programming language. Python design philosophy emphasizes code readability with the use of significant indentation.
+
+                </p>
+
+                 
+            </section>
+
+
+            <section class="main-section" id="WHY_TO_LEARN_PYTHON">
+                <header ><h1>WHY TO LEARN PYTHON</h1></header>
+                <p>
+                    Python is consistently rated as one of the world's most popular programming languages. Python is fairly easy to learn, so if you are starting to learn any programming language, then Python could be your great choice. Today, various schools, colleges, and universities are teaching Python as their primary programming language. 
+                    <br>There are many other good reasons that make Python the top choice of any programmer:
+
+                    <ul>
+
+                        <li>Python is open source, which means it's available free of cost.</li>
+                        <li>Python is simple and so easy to learn.</li>
+                        <li>Python is versatile and can be used to create many different things.</li>
+                        <li>Python has powerful development libraries, including AI, ML, etc.</li>
+                        <li>Python is much in demand and ensures a high salary.</li>
+                        <li>Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.</li>
+                        <li>Python is Interactive − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.</li>
+                        <li>Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.</li>
+                        <li>Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.</li>
+
+                    </ul>
+                </p>
+    
+            </section>
+
+            <section class="main-section" id="HISTORY_OF_PYTHON">
+                <header  ><h1>HISTORY OF PYTHON</h1></header>
+                <p>
+                     Python was developed by Guido van Rossum (a Dutch programmer) in the late 1980s and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands.<br>
+                     Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and Unix shell and other scripting languages. Guido van Rossum wanted Python to be a high-level language that was powerful yet readable and easy to use.<br>
+                     Python is copyrighted. Like Perl, Python source code is now available under the GNU General Public License (GPL).
+                     For many uninitiated people, the word Python is related to a species of snake. Rossum though attributes the choice of the name Python to a popular comedy series Monty Python's Flying Circus on BBC.<br>
+                     Being the principal architect of Python, the developer community conferred upon him the title of Benevolent Dictator for Life (BDFL). However, in 2018, Rossum relinquished the title.<br> Thereafter, the development and distribution of the reference implementation of Python is handled by a nonprofit organization Python Software Foundation.<br>
+             
+                </p>
+    
+            </section>
+
+
+
+            <section class="main-section" id="HEllO_WORLD">
+                <header><h1>HELLO WORLD </h1> </header>
+                <p>Python Program to Print Hello World<br>
+
+                    Printing "Hello World" is the first program in Python. <br>
+                    This program will not take any user input, it will just print text on the output screen.<br>
+                    It is used to test if the software needed to compile and run the program has been installed correctly.<br>
+                <div>
+                    Steps
+                    The following are the steps to write a Python program to print Hello World –
+
+                    <ul>
+
+                       <li>Step 1: Install Python. Make sure that Python is installed on your system or not. If Python is not installed, then install it from here: https://www.python.org/downloads/</li>
+                       <li>Step 2: Choose Text Editor or IDE to write the code.</li>
+                       <li>Step 3: Open Text Editor or IDE, create a new file, and write the code to print Hello World.</li>
+                       <li>Step 4: Save the file with a file name and extension ".py".</li>
+                       <li>Step 5: Compile/Run the program.</li>
+
+                    </ul>
+                </div>
+                
+                
+                </p>
+                <code>
+
+
+                    <!-- HTML generated using hilite.me -->
+                     <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                        <pre style="margin: 0; line-height: 125%">
+                        <span style="color: #75715e"># Python code to print &quot;Hello World&quot;</span>
+                        <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;Hello World&quot;</span><span style="color: #f8f8f2">)</span>
+                        </pre>
+                    </div>
+                </code>
+
+                <div>
+                    In the above code, we wrote two lines. The first line is the Python comment that will be ignored by the Python interpreter, and the second line is the print() statement that will print the given message ("Hello World") on the output screen.
+
+                    <p ><b>Output</b></p>
+                </div>
+
+                <div>
+                    <!-- HTML generated using hilite.me -->
+                     <div style="background: #e0e0c7; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                        <pre style="margin: 0; line-height: 125%">
+                            Hello World
+                        </pre>
+                    </div>
+    
+                </div>
+            </section>
+
+
+
+            <section class="main-section" id="VARIABLES">
+                <header  ><h1>VARIABLES</h1></header>
+                <p>
+                    Python variables are the reserved memory locations used to store values with in a Python Program. This means that when you create a variable you reserve some space in the memory.<br>
+                    Based on the data type of a variable, Python interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to Python variables, you can store integers, decimals or characters in these variables.
+                </p>
+
+                <h2>Creating python variable</h2>
+                <p>
+                    Python variables do not need explicit declaration to reserve memory space or you can say to create a variable.<br> A Python variable is created automatically when you assign a value to it. The equal sign (=) is used to assign values to variables.<br>
+                    The operand to the left of the = operator is the <b>name of the variable </b> and the operand to the right of the = operator is <b> the value stored in the variable</b>.<br> For example −
+                </p>
+
+
+            
+                <h3>Example to Create Python Variables</h3>
+
+                <p>
+                    This example creates different types (an integer, a float, and a string) of variables.
+                </p>
+
+                <code>
+                        <!-- HTML generated using hilite.me -->
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                            <pre style="margin: 0; line-height: 125%">
+                                <span style="color: #f8f8f2">counter</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">100</span>   <span style="color: #75715e"># Creates an integer variable</span>
+                                <span style="color: #f8f8f2">miles</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1000.0</span>  <span style="color: #75715e"># Creates a floating point variable</span>
+                                <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Zara Ali&quot;</span>  <span style="color: #75715e"># Creates a string variable</span>
+                            </pre>
+                        </div>
+                </code>
+                        <br>
+
+               
+                <h2>Printing Python Variables</h2>
+
+                <p>Once we create a Python variable and assign a value to it, we can print it using print() function.<br>
+                    Following is the extension of previous example and shows how to print different variables in Python:<br>
+                </p>
+
+                <h3>Example to Print Python Variables</h3>
+                <code>
+                    <!-- HTML generated using hilite.me -->
+                     <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                        <span style="color: #f8f8f2">counter</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">100</span>          <span style="color: #75715e"># Creates an integer variable</span>
+                        <span style="color: #f8f8f2">miles</span>   <span style="color: #f92672">=</span> <span style="color: #ae81ff">1000.0</span>       <span style="color: #75715e"># Creates a floating point variable</span>
+                        <span style="color: #f8f8f2">name</span>    <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Zara Ali&quot;</span>   <span style="color: #75715e"># Creates a string variable</span>
+
+                        <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(counter)</span>
+                        <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(miles)</span>
+                        <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(name)</span>
+                        </pre>
+                    </div>
+                </code>
+
+
+                <p>
+                    Here, 100, 1000.0 and "Zara Ali" are the values assigned to counter, miles, and name variables, respectively. When running the above Python program, this produces the following result − <br>  
+                </p>
+
+                <!-- HTML generated using hilite.me -->
+                <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                    <pre style="margin: 0; line-height: 125%">
+                        100
+                        1000.0
+                        Zara Ali
+                    </pre>
+                </div>
+
+                </section>
+
+
+            <section class="main-section" id="DATA_TYPES">
+               <header   >DATA TYPES</header>
+               
+               <p>
+                    Python data types are actually classes, and the defined variables are their instances or objects. Since Python is dynamically typed, the data type of a variable is determined at runtime based on the assigned value.
+                    In general, the data types are used to define the type of a variable. It represents the type of data we are going to store in a variable and determines what operations can be done on it.
+                    Each programming language has its own classification of data items. With these datatypes, we can store different types of data values.
+               </p>
+
+
+               <h2> Python <b>Numeric</b> Data Type</h2>
+                <p>
+                    Python numeric data types <b>store numeric values</b>. Number objects are created when you assign a value to them. 
+                    For example −   <br>
+                        
+                </p>
+
+                <!-- HTML generated using hilite.me -->
+            <code>
+                <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                    <span style="color: #f8f8f2">var1</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #75715e"># int data type</span>
+                    <span style="color: #f8f8f2">var2</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">True</span><span style="color: #75715e"># bool data type</span>
+                    <span style="color: #f8f8f2">var3</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">10.023</span><span style="color: #75715e"># float data type</span>
+                    <span style="color: #f8f8f2">var4</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">10</span><span style="color: #f92672">+</span><span style="color: #ae81ff">3j</span>  <span style="color: #75715e"># complex data type</span>
+                </pre></div>
+            </code>    
+
+
+                <h3>Example of Numeric Data Types</h3>
+
+                <p>
+                    Following is an example to show the usage of Integer, Float and Complex numbers:
+
+                </p>
+
+                <!-- HTML generated using hilite.me -->
+            <code>    
+                 <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e"># integer variable.</span>
+                    <span style="color: #f8f8f2">a</span><span style="color: #f92672">=</span><span style="color: #ae81ff">100</span>
+                    <span style="color: #66d9ef">print</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;The type of variable having value&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">a,</span> <span style="color: #e6db74">&quot; is &quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">type(a))</span>
+
+                    <span style="color: #75715e"># float variable.</span>
+                    <span style="color: #f8f8f2">c</span><span style="color: #f92672">=</span><span style="color: #ae81ff">20.345</span>
+                    <span style="color: #66d9ef">print</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;The type of variable having value&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">c,</span> <span style="color: #e6db74">&quot; is &quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">type(c))</span>
+
+                    <span style="color: #75715e"># complex variable.</span>
+                    <span style="color: #f8f8f2">d</span><span style="color: #f92672">=</span><span style="color: #ae81ff">10</span><span style="color: #f92672">+</span><span style="color: #ae81ff">3j</span>
+                    <span style="color: #66d9ef">print</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;The type of variable having value&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">d,</span> <span style="color: #e6db74">&quot; is &quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">type(d))</span>
+                    </pre>
+                </div>
+            </code>
+
+               <h2> Python <b>String</b>Data_Type</h2>
+               <p>
+                Python string is a sequence of one or more Unicode characters, enclosed in single, double or triple quotation marks (also called inverted commas). <br>
+                Python strings are immutable which means when you perform an operation on strings, you always produce a new string object of the same type, rather than mutating an existing string.<br>
+                As long as the same sequence of characters is enclosed, single or double or triple quotes don't matter.   <br>  
+                Hence, following string representations are equivalent.
+               </p>
+
+               <!-- HTML generated using hilite.me -->
+                <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                    <span style="color: #f92672">&gt;&gt;&gt;</span> <span style="color: #e6db74">&#39;TutorialsPoint&#39;</span>
+                    <span style="color: #e6db74">&#39;TutorialsPoint&#39;</span>
+                    <span style="color: #f92672">&gt;&gt;&gt;</span> <span style="color: #e6db74">&quot;TutorialsPoint&quot;</span>
+                    <span style="color: #e6db74">&#39;TutorialsPoint&#39;</span>
+                    <span style="color: #f92672">&gt;&gt;&gt;</span> <span style="color: #e6db74">&#39;&#39;&#39;TutorialsPoint&#39;&#39;&#39;</span>
+                    <span style="color: #e6db74">&#39;TutorialsPoint&#39;</span>
+                    </pre></div>
+
+                    <p>
+                        A string is a non-numeric data type. Obviously, we cannot perform arithmetic operations on it. However, operations such as slicing and concatenation can be done. Python's str class defines a number of useful methods for string processing. Subsets of strings can be taken using the slice operator ([ ] and [:] ) with indexes starting at 0 in the beginning of the string and working their way from -1 at the end.
+                        The plus (+) sign is the string concatenation operator and the asterisk (*) is the repetition operator in Python.
+                    </p>
+
+                    
+                <h3> Example of String Data Type</h3>
+                
+                <!-- HTML generated using hilite.me -->
+                 <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                    <span style="color: #f8f8f2">str</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;Hello World!&#39;</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str)</span>          <span style="color: #75715e"># Prints complete string</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str[</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">])</span>       <span style="color: #75715e"># Prints first character of the string</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">5</span><span style="color: #f8f8f2">])</span>     <span style="color: #75715e"># Prints characters starting from 3rd to 5th</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">:])</span>      <span style="color: #75715e"># Prints string starting from 3rd character</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str</span> <span style="color: #f92672">*</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">)</span>      <span style="color: #75715e"># Prints string two times</span>
+                    <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(str</span> <span style="color: #f92672">+</span> <span style="color: #e6db74">&quot;TEST&quot;</span><span style="color: #f8f8f2">)</span> <span style="color: #75715e"># Prints concatenated strin</span>
+                </pre></div>
+
+
+
+
+
+                <h2>Python of sequence data type</h2>
+                
+                <p>Sequence is a collection data type. It is an ordered collection of items. Items in the sequence have a positional index starting with 0. It is conceptually similar to an array in C or C++. 
+                    There are following three sequence data types defined in Python.
+                </p>
+
+                <p>
+                    <ul>
+                        <li>List Data Type </li>
+                        <li>Tuple Data Type</li>
+                        <li>Range Data Type</li>
+                    </ul>
+
+                    <p>
+                        Python sequences are bounded and iterable - Whenever we say an iterable in Python, it means a sequence data type.
+                    </p>
+
+
+                    <h3>(a) Python List Data Type</h3>
+
+                    <p>Python Lists are the most versatile compound data types. A Python list contains items separated by commas and enclosed within square brackets ([]). To some extent, Python lists are similar to arrays in C. One difference between them is that all the items belonging to a Python list can be of different data type where as C array can store elements related to a particular data type.</p>
+
+                    <p>A list can have items which are simple numbers, strings, tuple, dictionary, set or object of user defined class also.
+
+                        The values stored in a Python list can be accessed using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the list and working their way to end -1. The plus (+) sign is the list concatenation operator, and the asterisk (*) is the repetition operator.</p>
+
+
+                        <h3>Example of List Data Type</h3>
+
+                        <!-- HTML generated using hilite.me -->
+
+                    <code>   
+                         <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                            <span style="color: #f8f8f2">list</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">[</span> <span style="color: #e6db74">&#39;abcd&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">786</span> <span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">2.23</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;john&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">70.2</span> <span style="color: #f8f8f2">]</span>
+                            <span style="color: #f8f8f2">tinylist</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">[</span><span style="color: #ae81ff">123</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;john&#39;</span><span style="color: #f8f8f2">]</span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(list)</span>            <span style="color: #75715e"># Prints complete list</span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(list[</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">])</span>         <span style="color: #75715e"># Prints first element of the list</span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(list[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">3</span><span style="color: #f8f8f2">])</span>       <span style="color: #75715e"># Prints elements starting from 2nd till 3rd </span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(list[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">:])</span>        <span style="color: #75715e"># Prints elements starting from 3rd element</span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(tinylist</span> <span style="color: #f92672">*</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">)</span>    <span style="color: #75715e"># Prints list two times</span>
+                            <span style="color: #66d9ef">print</span> <span style="color: #f8f8f2">(list</span> <span style="color: #f92672">+</span> <span style="color: #f8f8f2">tinylist)</span> <span style="color: #75715e"># Prints concatenated lists</span>
+                            </pre>
+                        </div>
+                    </code>    
+
+                        <p>
+                            This produce the following result −
+                        </p>
+
+                        <!-- HTML generated using hilite.me -->
+                         <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                            <pre style="margin: 0; line-height: 125%">
+                                [<span style="font-style: italic">&#39;abcd&#39;</span>, 786, 2.23, <span style="font-style: italic">&#39;john&#39;</span>, 70.2]
+                                abcd
+                                [786, 2.23]
+                                [2.23, <span style="font-style: italic">&#39;john&#39;</span>, 70.2]
+                                [123, <span style="font-style: italic">&#39;john&#39;</span>, 123, <span style="font-style: italic">&#39;john&#39;</span>]
+                                [<span style="font-style: italic">&#39;abcd&#39;</span>, 786, 2.23, <span style="font-style: italic">&#39;john&#39;</span>, 70.2, 123, <span style="font-style: italic">&#39;john&#39;</span>]
+                            </pre>
+                        </div>
+
+                        <h3>(b) Python Tuple Data Type</h3>
+
+                        <p>Python tuple is another sequence data type that is similar to a list. A Python tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses (...).<br>
+                            A tuple is also a sequence, hence each item in the tuple has an index referring to its position in the collection. The index starts from 0.<br>
+                            <br>
+
+                            The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed i.e. lists are mutable, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated (immutable).<br>
+                            Tuples can be thought of as read-only lists.
+                            <br>
+
+                            The following code is invalid with tuple, because we attempted to update a tuple, which is not allowed. Similar case is possible with lists −
+                        
+                        </p>
+
+                        <!-- HTML generated using hilite.me -->
+                    <code>
+                         <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
+                            <span style="color: #f8f8f2">tuple</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(</span> <span style="color: #e6db74">&#39;abcd&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">786</span> <span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">2.23</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;john&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">70.2</span>  <span style="color: #f8f8f2">)</span>
+                            <span style="color: #f8f8f2">list</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">[</span> <span style="color: #e6db74">&#39;abcd&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">786</span> <span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">2.23</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;john&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">70.2</span>  <span style="color: #f8f8f2">]</span>
+                            <span style="color: #f8f8f2">tuple[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1000</span>    <span style="color: #75715e"># Invalid syntax with tuple</span>
+                            <span style="color: #f8f8f2">list[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1000</span>     <span style="color: #75715e"># Valid syntax with list</span>
+                            </pre>
+                        </div>
+                    </code>
+
+
+                        <h3>(c) Python Range Data Type</h3>
+
+                        <p>
+                            A Python range is an <b>immutable </b> of numbers which is typically used to iterate through a specific number of items.<br>
+                            It is represented by the Range class. The constructor of this class accepts a sequence of numbers starting from 0 and increments to 1 until it reaches a specified number. 
+                            <br>Following is the syntax of the function −<br>
+
+                            <!-- HTML generated using hilite.me -->
+                             <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                                <pre style="margin: 0; line-height: 125%">
+                                    <span style="color: #f8f8f2">range(start,</span>  <span style="color: #f8f8f2">stop,</span> <span style="color: #f8f8f2">step)</span>
+                                </pre></div>
+
+
+                              <br>
+                              Here is the description of the parameters used −
+                              <br>
+                              
+                              <ul>
+                                <li> start: Integer number to specify starting position, (Its optional, Default: 0)</li>
+                                <li> stop: Integer number to specify ending position (It's mandatory)</li>
+                                <li> step: Integer number to specify increment, (Its optional, Default: 1)</li>
+                              </ul>
+
+                              <br>
+                              
+
+                              <h3>Example of Range Data Type </h3>
+
+                              <!-- HTML generated using hilite.me -->
+                               <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                                    <pre style="margin: 0; line-height: 125%">
+                                        <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">in</span> <span style="color: #f8f8f2">range(</span><span style="color: #ae81ff">5</span><span style="color: #f8f8f2">):</span>
+                                        <span style="color: #66d9ef">print</span><span style="color: #f8f8f2">(i)</span>
+                                    </pre>
+                                </div>
+
+
+                                <p>This produce the following result −</p>
+
+                                <!-- HTML generated using hilite.me -->
+                                 <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                                    <pre style="margin: 0; line-height: 125%">
+                                        0
+                                        1
+                                        2
+                                        3
+                                        4
+                                    </pre>
+                                </div>
+
+
+                
+
+
+                        </p>
+
+            </section>
+
+                    
+
+
+
+
+
+
+
+                    
+
+                </p>
+
+                    
+
+               
+
+           
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                
+                </p>
+
+
+            </section>
+
+                
+              
+                
+
+
+               
+    
+            </section>
+
+
+
+
+        </main>
+    </body>
+
+</html>

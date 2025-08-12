@@ -1,0 +1,174 @@
+
+
+body{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(214, 215, 237);
+    width:100%;
+    height:auto;
+    font-size:14px;
+    font-family: 'Trebuchet MS';
+    
+
+}
+
+header{ 
+    font-size: x-large;
+    font-weight: 800;
+    font-family: 'Trebuchet MS';
+    color:darkblue;
+}
+
+
+#navbarheader{
+    font-family: Impact;
+    font-weight: 500;
+    font-size: x-large;
+    color:darkblue;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin:1px;
+    line-height: 25px;
+
+}
+
+
+#pythonlogo{
+
+    padding:3px;
+    width:200px;
+    height:auto;
+}
+
+
+#nav_container{
+    flex-direction: column; 
+    margin:2px;
+    padding:3px;
+    width:200px;
+    height:300px;
+    font-size: large;
+    text-align:center;
+    padding-top: 3px;
+    line-height: 14px;
+}
+
+
+#nav_link{
+    border: 3px solid rgb(83, 166, 255);
+    border-radius: 10px;
+    background-color:rgb(122, 186, 255);
+    width:200px;
+    height:auto;
+    line-height: normal;
+    padding-top:5px;
+    padding-bottom:5px;}
+    
+   
+   
+#nav_link div{
+    justify-items: center;
+    text-align: center;
+    border-radius: 2px;
+    border-bottom:5px solid  rgb(83, 166, 255);
+       
+}
+
+#nav_link div:hover{
+    background-color:rgb(255, 255, 95);
+    border-radius: 10px;
+}
+
+
+
+main{
+    background-color:rgb(156, 202, 255);
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:5px;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    margin:10px;
+    border-radius: 15px;
+    border: 2px solid rgb(83, 166, 255);
+    width:90%;
+    height:auto;
+
+
+
+
+
+}
+
+
+@media (max-width: 600px) {
+   
+    body{
+        width:90%;
+        background-color: rgb(232, 233, 255); 
+        font-size:80%;
+        margin:5px;
+
+        }
+
+    
+    main {
+        background-color: rgb(255, 191, 191);
+        border: 2px solid rgb(255, 103, 83);
+        height:auto;
+        width:65%;
+        margin-left:1px;
+        margin-right:1px;
+        margin-top:5px;
+        padding-top:5px;
+        padding-left:1px;
+        padding-right:1px;
+        padding-bottom:5px;
+        border-radius: 15px;    
+    
+    }
+
+    
+        
+
+    #pythonlogo{
+        
+    width:70%;
+    height:auto;
+        
+    }
+
+    #nav_container{
+        
+        margin:1px;
+        padding:1px;
+        width:80%;
+        height:500px;
+        text-align:center;
+        padding-top:1px;
+        line-height:15px;
+    }
+    
+
+
+    #nav_link{
+        border: 2px solid rgb(255, 103, 83);
+        border-radius:3px;
+        background-color: rgb(255, 191, 191); 
+        width:80%;
+        height:auto;
+        padding-top:2px;;
+        text-align: center;
+        margin:1px;
+        padding:1px;
+    }
+
+    #nav_link div{
+        
+        border-bottom:2px solid rgb(255, 103, 83);
+
+    }
+
+}
