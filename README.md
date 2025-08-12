@@ -1,3 +1,4 @@
 # freecodecamp
 
-> **Disclaimer:** Anime images © their respective owners. Used for illustrative purposes only.
+> > **Disclaimer:** All images and illustrations are the property of their respective owners. No copyright infringement intended.
+
