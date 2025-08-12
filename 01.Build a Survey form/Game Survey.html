@@ -1,0 +1,83 @@
+<!Doctype html>
+
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <title> Survey Form </title>
+  <link rel= "stylesheet"  href="styles.css">  
+  </head>
+
+<body> 
+
+  <h1 id="title">Game Survey</h1>
+  
+  <p id="description">Instruction
+    <ul>
+    
+      <li>The objective of this survey is to collect the data on what makes people enjoy playing games.</li>
+      <li>Thank you for taking the time to complete this survey.</li>
+    
+    </ul>
+
+  </p>
+
+
+  <form id="survey-form" class="glassform" >
+
+    <label id="name-label">Full name: </label>
+    <input id="name" type="text" placeholder=" Enter Your Full Name " required><br>
+    <br>
+        
+  
+    <label id="email-label">Email : </label>
+    <input id="email" type= "email" placeholder=" Enter Your Email "  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+    required> <br>
+    <br>
+
+    <label id="number-label"> Year of birth : </label>
+    <input id="number" type="number" min="1800" max="2018" placeholder="Enter Your Year of Birth " 
+    required><br>
+    <br>
+
+
+    <label id="region-label">What region are you from? </label>
+      <select id="dropdown" name="region" required>
+      
+        <option id="Asia-pacific" value="Asia-Pacific"> Asia Pacific</option>
+        <option id="Europe" value="Europe">Europe</option>
+        <option id="North America" value="North America">North America</option>
+
+      </select> <br>
+    
+    <br>
+    <label>Do you play game?</label><br>
+    <input  name="playgame" type="radio" value="yes" required>Yes
+    <input name="playgame" type="radio" value="No" required> No <br>
+
+    <br>
+
+     <label>which elements of game keep you playing ?</label><br>
+      <input type="checkbox" value="storyy-telling" required>story-telling<br>
+      <input type="checkbox" value="visual/character" required> visual/character<br>
+      <input type="checkbox" value="world-building" required> world-building<br>
+      <input type="checkbox" value="Genre" required>Genre<br>
+
+  <br>
+
+  <label>Please write your suggestions or comments to help us improve in creating game in the future?</label><br>
+
+  <textarea id="comment"> Enter Your Suggestions or Comments Here</textarea><br>
+
+  <br>
+
+
+  <input id="submit" type="submit">
+
+ 
+
+  
+  </form>
+
+</body>
+</html>
